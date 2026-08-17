@@ -1,0 +1,29 @@
+{
+  "name": "enterprise-management-app",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "lucide-react": "^1.31.0",
+    "next": "^15.3.1",
+    "nodemailer": "^9.0.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sqlite": "^4.2.1",
+    "sqlite3": "^5.1.7",
+    "tailwindcss": "^3.4.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39"
+  }
+}
